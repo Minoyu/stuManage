@@ -421,13 +421,13 @@ void studentList::sortById() {
     //链表 简单选择排序法
     for (;t->next!=NULL;t=t->next) {
         for (p=t->next;p!=NULL;p=p->next) {
-            if (p->id > t->id){
+            if (p->id < t->id){
                 p->swap(t);
             }
         }
     }
 
-    cout<<"*已按C++成绩排序成功 ";
+    cout<<"*已按学生学号排序成功 ";
     printShortStar();
     cout<<endl;
     stuL.show();
