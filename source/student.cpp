@@ -523,7 +523,7 @@ void studentList::sortByEn() {
 }
 
 /**
- *通过Name搜索学生
+ *显示所有学生信息
  */
 void studentList::show() {
     printStudentTableTitle();
