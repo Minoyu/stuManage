@@ -12,4 +12,4 @@
 ## 食用方法
 #### * 下载到本地后自行导入项目编译运行即可
 #### * 你可以在 header/main.h 的第12~13行中更改密码及允许的尝试次数
-### 详细介绍请参照 
+### 详细介绍请参照 https://we.sharelove.site/minoyu/develop/cpp-stumanage/
