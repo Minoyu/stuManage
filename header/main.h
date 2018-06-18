@@ -46,7 +46,7 @@ private:
     string name;
     string id;
     int cppScore,mathScore,enScore;
-    //指向下一个学生的指正针
+    //指向下一个学生的指针
     student * next;
 public:
     void add();
